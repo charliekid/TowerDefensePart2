@@ -10,14 +10,14 @@ public class Enemy : MonoBehaviour
   public float amplify = 1;
   private int index = 0;
   private bool move = true;
-  private Purse purse;
+  //private Purse purse;
   public int health = 100;
   public int cashPoints = 100;
 
   // Start is called before the first frame update
   void Start()
   {
-    purse = GameObject.FindGameObjectWithTag("Purse").GetComponent<Purse>();
+    //purse = GameObject.FindGameObjectWithTag("Purse").GetComponent<Purse>();
 
     //Place our enemy at the start point
     transform.position = navPoints[index].transform.position;
@@ -62,7 +62,7 @@ public class Enemy : MonoBehaviour
     health -= amountDamage;
     if (health < 0)
     {
-      purse.AddCash(cashPoints);
+      //purse.AddCash(cashPoints);
       Destroy(this.gameObject);
     }
   }

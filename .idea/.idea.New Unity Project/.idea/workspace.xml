@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jl085qiTD0lKyf2LLBWdnaqVXR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604363209388</updated>
-      <workItem from="1604363262107" duration="2080000" />
+      <workItem from="1604363262107" duration="5017000" />
     </task>
     <servers />
   </component>
